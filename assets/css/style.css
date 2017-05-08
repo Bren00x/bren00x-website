@@ -1,0 +1,130 @@
+/* 
+MADE IN USA
+MADE BY BRENDAN aka Bren00x or bren
+
+This is just for this site and isnt
+a full css frame work.
+
+NOTES:
+
+Usage for padding and margin:
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+Top Right Bottom Left
+
+********************/
+
+::selection {
+    background: #35ca83;
+    /* WebKit/Blink Browsers */
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #35ca83;
+    /* Gecko Browsers */
+    color: #fff;
+}
+
+
+/* Reset Page Margin / Set Font
+********************/
+
+body,
+html {
+    margin: 0px;
+    font-family: "usual", "helveticaneue-light", "helvetica", sans-serif;
+    background-color: #f9f9f9;
+}
+
+
+/* Navigation
+********************/
+
+nav {
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    border-bottom: 1px solid #edeeee;
+    background-color: white;
+}
+
+img.nLogo {
+    width: 50px;
+}
+
+
+/* Top Welcome
+********************/
+
+.header {
+    text-align: center;
+    margin: 30px 0 0 0;
+    color: #35ca83;
+}
+
+.header h1 {
+    letter-spacing: 5px;
+}
+
+
+/* Page
+********************/
+
+main {
+    margin: auto;
+    max-width: 700px;
+    padding: 0 10px 0 10px;
+}
+
+
+/* Cards
+********************/
+
+card {
+    margin: 20px auto;
+    padding: 20px;
+    20px 20px 20px;
+    max-width: 500px;
+    display: block;
+    background-color: white;
+    border: 1px solid #edeeee;
+    border-radius: 5px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    line-height: 20px;
+}
+
+card h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 5px 0;
+}
+
+
+/* Other Styles
+<code>
+<samp>
+********************/
+
+code {
+    padding: 2px 5px;
+    background-color: #eaeaea;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+
+/* Footer
+********************/
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    padding: 0 5px;
+}
