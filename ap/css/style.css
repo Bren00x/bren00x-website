@@ -1,0 +1,186 @@
+body,
+html {
+    margin: 0px;
+    font-family: "usual", "helveticaneue-light", "helvetica", sans-serif;
+    background-color: #fff;
+    min-height: 100%;
+}
+
+img.nLogo {
+    width: 75%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px 15px 10px 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 25px 10px;
+}
+
+nav ul a {
+    color: #35ca83;
+    text-decoration: inherit;
+}
+
+.nav-dropdown {
+    display: inline;
+}
+
+.ion-navicon-round {
+    padding: 1px 10px;
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .ion-navicon-round {
+        display: inline-block;
+        float: right;
+        padding: 17px 10px;
+        color: #35ca83;
+        text-decoration: inherit;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 17px 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #navlinks {
+        display: none;
+        width: 100%;
+        border-bottom: 1px solid #edeeee;
+        background-color: white;
+        box-sizing: border-box;
+        margin: 0;
+    }
+}
+
+.header {
+    text-align: center;
+    margin: 30px 0 0 0;
+    color: #000;
+}
+
+.header h1 {
+    letter-spacing: 5px;
+}
+
+main {
+    margin: auto;
+    max-width: 700px;
+    padding: 0 10px 0 10px;
+}
+
+main.main-apps {
+    max-width: 750px;
+    text-align: center;
+}
+
+card {
+    margin: 20px auto;
+    padding: 20px;
+    20px 20px 20px;
+    max-width: 500px;
+    display: block;
+    background-color: white;
+    border: 1px solid #edeeee;
+    border-radius: 5px;
+    line-height: 20px;
+}
+
+card h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 5px 0;
+}
+
+app-card {
+    margin: 20px auto;
+    padding: 20px;
+    20px 20px 20px;
+    max-width: 200px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #edeeee;
+    border-radius: 5px;
+    line-height: 20px;
+    text-align: center;
+}
+
+app-icon img {
+    width: 80%;
+    border-radius: 25px;
+}
+
+app-download {
+    margin: 5px 0px;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: #35ca83;
+}
+
+app-download a {
+    text-decoration: inherit;
+    color: white;
+}
+
+code {
+    padding: 2px 5px;
+    background-color: #eaeaea;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    padding: 0 5px;
+}
+
+input[type=text],
+input[type=password],
+input[type=submit],
+input[type=button] {
+    margin: 20px auto;
+    padding: 10px 20px;
+    width: 100%;
+    display: block;
+    background-color: white;
+    border: 1px solid #edeeee;
+    border-radius: 5px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=submit]:focus,
+input[type=button]:focus {
+    outline: none;
+    border: 1px solid #b9b9b9;
+}
+
+.header img {
+    position: relative;
+    height: 50px;
+    top: 15px;
+}
+
+
+.button
